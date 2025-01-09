@@ -6,7 +6,7 @@ const Sidebar = () => {
           
             <h2>Administrator</h2>
             <ul>
-                <li><Link href="/admin">Home</Link></li>
+                <li><Link href="../../Home">Home</Link></li>
                 <li><Link href="/admin/courses">Courses</Link></li>
                 <li><Link href="/admin/students">Students</Link></li>
                 <li><Link href="/admin/subjects">Subjects</Link></li>
