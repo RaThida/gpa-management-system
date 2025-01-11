@@ -1,11 +1,11 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import mysql from 'mysql2/promise';
+import mysql from  'mysql2/promise';
 
 const dbConfig = {
   host: 'localhost', // Change if your MySQL is hosted elsewhere
   user: 'root', // Replace with your MySQL username
   password: '', // Replace with your MySQL password
-  database: 'school_management', // Replace with your database name
+  database: 'gpa_management_system', // Replace with your database name
 };
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
