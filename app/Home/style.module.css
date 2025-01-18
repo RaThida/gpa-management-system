@@ -1,0 +1,170 @@
+/* Events Section */
+.eventsSection {
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .eventsTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 30px;
+  }
+  
+  .eventsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; /* Added to handle wrapping on smaller screens */
+  }
+  
+  .eventCard {
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+    margin: 20px; /* Added margin to separate event cards */
+    flex: 1; /* Allows event cards to be responsive */
+  }
+  
+  .eventImage {
+    border-radius: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .eventTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00a2e8;
+    margin-bottom: 5px;
+  }
+  
+  .eventDetail {
+    display: inline-block;
+    margin: 8px 0;
+    font-size: 1.6rem; /* Adjusted font-size for better readability */
+  }
+  
+  .eventDetail span {
+    margin-right: 8px; /* Adjusted space between icon and text */
+  }
+  
+  .navigationButton {
+    font-size: 4rem;
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .navigationButton:hover {
+    color: darkred;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px;
+    font-size: 1rem;
+    text-align: left;
+    border-top: 5px solid #ff3e3e;
+  }
+  
+  .footerContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .footerAbout,
+  .footerLinks,
+  .footerSocial {
+    flex: 1 1 300px;
+  }
+  
+  .footerAbout h4,
+  .footerLinkSection h5,
+  .footerSocial h5 {
+    color: #ff3e3e;
+    margin-bottom: 10px;
+  }
+  
+  .footerAbout p {
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  
+  .footerLinks ul,
+  .footerSocial .socialLinks {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footerLinks li,
+  .footerSocial a {
+    font-size: 1rem;
+    color: #ddd;
+    margin-bottom: 8px;
+  }
+  
+  .footerLinks a,
+  .footerSocial a {
+    text-decoration: none;
+    color: #ddd;
+    transition: color 0.3s;
+  }
+  
+  .footerLinks a:hover,
+  .footerSocial a:hover {
+    color: #ff3e3e;
+  }
+  
+  .footerSocial .socialLinks a {
+    margin-right: 15px;
+  }
+  
+  .footerBottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  
+  .footerBottom p {
+    margin: 0;
+  }
+  
+  /* Responsive design for Footer */
+  @media (max-width: 768px) {
+    .footerContent {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .eventsContainer {
+      flex-direction: column;
+    }
+  
+    .eventCard {
+      margin: 20px 0;
+      width: 80%; /* Make event cards take more width on small screens */
+    }
+  
+    .eventTitle {
+      font-size: 1.8rem; /* Adjust title size for small screens */
+    }
+  
+    .eventDetail {
+      font-size: 1.4rem; /* Adjust font size for smaller screens */
+    }
+  
+    .navigationButton {
+      font-size: 3rem; /* Adjust button size for smaller screens */
+    }
+  }
+  

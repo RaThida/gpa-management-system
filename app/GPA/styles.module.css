@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .gpaContainer {
+    background-color: #FF0000; /* Red background */
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .gpaTitle {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .yearSelect {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1rem;
+  }
+  
+  .yearContent {
+    border: 1px solid #000; /* Black border around content */
+    padding: 20px;
+    border-radius: 5px;
+  }

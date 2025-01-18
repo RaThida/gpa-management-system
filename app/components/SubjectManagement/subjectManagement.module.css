@@ -1,0 +1,27 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .form input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .listContainer {
+    margin-top: 20px;
+  }
+  
+  .listContainer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .listContainer li {
+    padding: 5px 0;
+  }
+  

@@ -1,0 +1,40 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .teacherList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .teacherCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .teacherCard h2 {
+    margin-bottom: 10px;
+    color: #0070f3;
+  }
+  
+  .teacherCard ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .teacherCard ul li {
+    padding: 5px 0;
+  }
+  
